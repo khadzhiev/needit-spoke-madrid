@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment>Log NeedIt Task closure</comment>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Task">318da72ddb8c501000fd7b3868961908</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 16:30:49</sys_created_on>
+        <sys_id>9960fbe1dbcc501000fd7b3868961939</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_455484_needit_sp">7f36162ddbc8501000fd7b3868961987</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">7f36162ddbc8501000fd7b3868961987</sys_scope>
+        <sys_update_name>sys_hub_action_instance_9960fbe1dbcc501000fd7b3868961939</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 18:51:03</sys_updated_on>
+        <ui_id>3a521f15-455c-4d18-b493-d9c3b2b3fdf1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9960fbe1dbcc501000fd7b3868961939"/>
+    <sys_element_mapping action="delete_multiple" query="id=9960fbe1dbcc501000fd7b3868961939"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>9960fbe1dbcc501000fd7b3868961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 16:30:49</sys_created_on>
+        <sys_id>5960fbe1dbcc501000fd7b386896193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 16:30:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{subflow.reason}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>9960fbe1dbcc501000fd7b3868961939</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-08 17:04:22</sys_created_on>
+        <sys_id>b418fb29dbcc501000fd7b386896193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-08 17:04:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{subflow.reason}}</value>
+    </sys_element_mapping>
+</record_update>
